@@ -1,0 +1,5 @@
+isme.testporjey.Services.BookService#getMostLoanedBook()Lisme/testporjey/Models/Book;
+false
+8f86b8ad4a6220371e6edc094d260e14
+==
+findMostLoanedBook isme.testporjey.Repositories.BookRepository#findMostLoanedBook()Lisme/testporjey/Models/Book;

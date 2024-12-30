@@ -1,0 +1,12 @@
+isme.testporjey.ModelsTest.UserTest#testLoanHistory()V
+false
+5990e28710b06dd074d5879814b63f9c
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z

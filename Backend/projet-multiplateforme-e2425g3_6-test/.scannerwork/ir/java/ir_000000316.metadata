@@ -1,0 +1,8 @@
+isme.testporjey.ControllersTest.CategoryControllerTest#testGetAllCategories()V
+false
+96aab33baf8a208bd2433d0b8657a07f
+isme.testporjey.Models.Category#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getAllCategories isme.testporjey.Services.CategoryService#getAllCategories()Ljava/util/List;

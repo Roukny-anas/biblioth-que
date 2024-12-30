@@ -1,0 +1,5 @@
+isme.testporjey.Services.BookService#searchByCategory(Ljava/lang/String;)Ljava/util/List;
+false
+5f3941f59ed88a5560943dd09a40274d
+==
+findByCategoryName isme.testporjey.Repositories.BookRepository#findByCategoryName(Ljava/lang/String;)Ljava/util/List;

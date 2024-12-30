@@ -1,0 +1,7 @@
+isme.testporjey.Controllers.CategoryController#getCategoryById(Ljava/lang/Long;)LResponseEntity;
+false
+e92df3f15f8c70ac48e713fb7f926270
+java.util.Optional#map(Ljava/util/function/Function;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getCategoryById isme.testporjey.Services.CategoryService#getCategoryById(Ljava/lang/Long;)Ljava/util/Optional;

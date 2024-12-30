@@ -1,0 +1,9 @@
+isme.testporjey.ServicesTest.LoanServiceTest#testGetLoansByUserId()V
+false
+9f7aaaea8a782215db1890efeefeb647
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+findByUserId isme.testporjey.Repositories.LoanRepository#findByUserId(Ljava/lang/Long;)Ljava/util/List;
+getLoansByUserId isme.testporjey.Services.LoanService#getLoansByUserId(Ljava/lang/Long;)Ljava/util/List;

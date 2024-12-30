@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.LoanController#getLoanById(Lisme/testporjey/Models/LoanId;)Ljava/util/Optional;
+false
+09d6c59e9c928024d500979126462bdd
+==
+getLoanById isme.testporjey.Services.LoanService#getLoanById(Lisme/testporjey/Models/LoanId;)Ljava/util/Optional;

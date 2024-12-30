@@ -1,0 +1,7 @@
+organization=codecrafters22
+projectKey=codecrafters22_bibliotheque
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.58741
+dashboardUrl=https://sonarcloud.io/dashboard?id=codecrafters22_bibliotheque
+ceTaskId=AZQZKdA5m2pIx8C1zxoq
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZQZKdA5m2pIx8C1zxoq

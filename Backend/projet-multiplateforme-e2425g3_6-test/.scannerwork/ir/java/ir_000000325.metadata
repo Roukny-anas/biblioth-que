@@ -1,0 +1,13 @@
+isme.testporjey.Services.LoanService#saveLoan(Lisme/testporjey/Models/Loan;)Lisme/testporjey/Models/Loan;
+false
+ca88ef741f2fed1522c67e9136bf701d
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+java.lang.IllegalStateException#instance-init#
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isEmpty()Z
+==
+!unknownMethod! !unknownMethod!

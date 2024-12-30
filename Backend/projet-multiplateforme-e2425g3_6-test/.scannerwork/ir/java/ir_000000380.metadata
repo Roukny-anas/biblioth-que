@@ -1,0 +1,10 @@
+isme.testporjey.ServicesTest.UserServiceTest#testSaveUser_UsernameExists()V
+false
+5f8fef98c20de1d6a48645d24d0f20bd
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+findByUsername isme.testporjey.Repositories.UserRepository#findByUsername(Ljava/lang/String;)Ljava/util/Optional;
+getMessage java.lang.Throwable#getMessage()Ljava/lang/String;

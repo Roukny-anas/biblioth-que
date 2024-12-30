@@ -1,0 +1,126 @@
+<div class="container mx-auto p-6 bg-gray-50 min-h-screen">
+  <!-- Page Title -->
+  <h2 class="text-3xl font-bold text-blue-600 mb-8 text-center">Manage Books</h2>
+
+  <!-- Book Form -->
+  <form (ngSubmit)="saveBook()" class="bg-white shadow-md rounded-lg p-6 space-y-4 mb-8">
+    <h3 class="text-xl font-semibold text-gray-700">Add or Edit a Book</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <input
+        [(ngModel)]="newBook.title"
+        name="title"
+        placeholder="Title"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+      <input
+        [(ngModel)]="newBook.author"
+        name="author"
+        placeholder="Author"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+      <input
+        [(ngModel)]="newBook.photo"
+        name="photo"
+        placeholder="Image URL"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+      <input
+        [(ngModel)]="newBook.availableCopies"
+        name="availableCopies"
+        type="number"
+        placeholder="Available Copies"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+      <select
+        [(ngModel)]="selectedCategoryId"
+        name="categoryId"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-3 bg-white focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      >
+        <option value="" disabled>Select Category</option>
+        <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+      </select>
+    </div>
+    <textarea
+      [(ngModel)]="newBook.description"
+      name="description"
+      placeholder="Description"
+      rows="3"
+      class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+    ></textarea>
+    <div class="flex space-x-4">
+      <button
+        type="submit"
+        class="bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 transition"
+      >
+        {{ editingBook ? 'Update Book' : 'Add Book' }}
+      </button>
+      <button
+        type="button"
+        (click)="resetBookForm()"
+        *ngIf="editingBook"
+        class="bg-gray-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-gray-600 focus:ring-2 focus:ring-gray-300 transition"
+      >
+        Cancel
+      </button>
+    </div>
+  </form>
+
+  <!-- Search Section -->
+  <div class="bg-white shadow-md rounded-lg p-4 flex items-center space-x-4 mb-8">
+    <input
+      [(ngModel)]="searchQuery"
+      placeholder="Search by Title"
+      class="flex-1 rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+    />
+    <button
+      (click)="searchByTitle()"
+      class="bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 transition"
+    >
+      Search
+    </button>
+  </div>
+
+  <!-- Books Table -->
+  <div class="bg-white shadow-md rounded-lg overflow-auto">
+    <table class="min-w-full border-collapse">
+      <thead>
+        <tr class="bg-blue-600 text-white text-left">
+          <th class="px-6 py-3 font-semibold">Title</th>
+          <th class="px-6 py-3 font-semibold">Author</th>
+          <th class="px-6 py-3 font-semibold">Category</th>
+          <th class="px-6 py-3 font-semibold">Available Copies</th>
+          <th class="px-6 py-3 font-semibold">Image</th>
+          <th class="px-6 py-3 font-semibold">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let book of books"
+          class="odd:bg-gray-100 even:bg-gray-50 hover:bg-blue-100 transition-colors"
+          (click)="editBook(book)"
+        >
+          <td class="px-6 py-3 text-gray-800 font-medium">{{ book.title }}</td>
+          <td class="px-6 py-3 text-gray-600">{{ book.author }}</td>
+          <td class="px-6 py-3 text-gray-600">{{ book.category?.name }}</td>
+          <td class="px-6 py-3 text-gray-600">{{ book.availableCopies }}</td>
+          <td class="px-6 py-3">
+            <img [src]="book.photo" alt="Book Image" class="w-12 h-16 object-cover rounded-md" />
+          </td>
+          <td class="px-6 py-3">
+            <button
+              (click)="deleteBook(book.id!); $event.stopPropagation()"
+              class="bg-red-500 text-white px-4 py-2 rounded-md font-semibold hover:bg-red-600 focus:ring-2 focus:ring-red-300 transition"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

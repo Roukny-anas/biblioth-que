@@ -1,0 +1,6 @@
+isme.testporjey.Controllers.BookController#createBook(Lisme/testporjey/Models/Book;)LResponseEntity;
+false
+42387c92c80a614dfedc00048040bfb6
+==
+!unknownMethod! !unknownMethod!
+saveBook isme.testporjey.Services.BookService#saveBook(Lisme/testporjey/Models/Book;)Lisme/testporjey/Models/Book;

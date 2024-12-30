@@ -1,0 +1,5 @@
+isme.testporjey.Services.CategoryService#getCategoryByName(Ljava/lang/String;)Ljava/util/Optional;
+false
+1fb9859b17449ddf8cbe754804c8084b
+==
+findByName isme.testporjey.Repositories.CategoryRepository#findByName(Ljava/lang/String;)Ljava/util/Optional;

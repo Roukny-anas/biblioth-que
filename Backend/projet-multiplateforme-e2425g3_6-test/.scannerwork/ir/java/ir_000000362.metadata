@@ -1,0 +1,11 @@
+isme.testporjey.JWT.JwtService#generateToken(LUserDetails;)Ljava/lang/String;
+false
+54c807fedc6d355de4107cd6ad1b7356
+java.lang.String#getBytes()[B
+java.time.Instant#now()Ljava/time/Instant;
+java.time.Instant#plus(JLjava/time/temporal/TemporalUnit;)Ljava/time/Instant;
+java.util.Date#<init>()V
+java.util.Date#from(Ljava/time/Instant;)Ljava/util/Date;
+java.util.Date#instance-init#
+==
+!unknownMethod! !unknownMethod!

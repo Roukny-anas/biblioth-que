@@ -1,0 +1,10 @@
+isme.testporjey.Converter.LoanIdConverter#convert(Ljava/lang/String;)Lisme/testporjey/Models/LoanId;
+false
+e70197a7069ac799bb835b444acceec1
+isme.testporjey.Models.LoanId#<init>()V
+isme.testporjey.Models.LoanId#instance-init#
+java.lang.Long#parseLong(Ljava/lang/String;)J
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+==
+!unknownMethod! !unknownMethod!

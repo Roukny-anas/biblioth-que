@@ -1,0 +1,11 @@
+isme.testporjey.ServicesTest.UserServiceTest#testSaveUser_Success()V
+false
+01d8175b0808b289778c074ea13f4a30
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.util.Optional#empty()Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+findByEmail isme.testporjey.Repositories.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;
+findByUsername isme.testporjey.Repositories.UserRepository#findByUsername(Ljava/lang/String;)Ljava/util/Optional;
+saveUser isme.testporjey.Services.UserService#saveUser(Lisme/testporjey/Models/User;)Lisme/testporjey/Models/User;

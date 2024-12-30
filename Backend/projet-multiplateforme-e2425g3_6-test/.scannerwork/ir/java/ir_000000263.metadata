@@ -1,0 +1,17 @@
+isme.testporjey.ControllersTest.LoanControllerTest#testCreateLoan()V
+false
+3a1f4edd9bc6ee897bdecb87e04b15a2
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+isme.testporjey.Models.LoanId#<init>()V
+isme.testporjey.Models.LoanId#instance-init#
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+saveLoan isme.testporjey.Services.LoanService#saveLoan(Lisme/testporjey/Models/Loan;)Lisme/testporjey/Models/Loan;

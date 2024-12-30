@@ -1,0 +1,51 @@
+<div class="page-container">
+  <h1>Statistics</h1>
+  <p>View performance and system statistics.</p>
+
+  <!-- Loading Spinner -->
+  <div *ngIf="isLoading" class="loading-spinner">
+    Loading statistics...
+  </div>
+
+  <!-- Statistics Grid -->
+  <div class="stats-grid" *ngIf="!isLoading">
+    <!-- Most Loaned Book -->
+    <div class="stat-card" *ngIf="mostLoanedBook; else noBookData">
+      <h2>Most Loaned Book</h2>
+      <h3>{{ mostLoanedBook?.title }}</h3>
+      <p>Author: {{ mostLoanedBook?.author }}</p>
+      <img [src]="mostLoanedBook?.photo" alt="Book Cover" class="book-photo" />
+    </div>
+    <ng-template #noBookData>
+      <div class="stat-card">
+        <h2>Most Loaned Book</h2>
+        <p>No data available for the most loaned book.</p>
+      </div>
+    </ng-template>
+
+    <!-- User with Most Loans -->
+    <div class="stat-card" *ngIf="userWithMostLoans; else noUserData">
+      <h2>User with Most Loans</h2>
+      <h3>{{ userWithMostLoans?.username }}</h3>
+      <p>Email: {{ userWithMostLoans?.email }}</p>
+    </div>
+    <ng-template #noUserData>
+      <div class="stat-card">
+        <h2>User with Most Loans</h2>
+        <p>No data available for the user with most loans.</p>
+      </div>
+    </ng-template>
+
+    <!-- Total Number of Users -->
+    <div class="stat-card">
+      <h2>Total Users</h2>
+      <p>{{ totalUsers }}</p>
+    </div>
+
+    <!-- Total Number of Books -->
+    <div class="stat-card">
+      <h2>Total Books</h2>
+      <p>{{ totalBooks }}</p>
+    </div>
+  </div>
+</div>

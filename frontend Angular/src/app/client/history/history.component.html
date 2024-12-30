@@ -1,0 +1,47 @@
+<div class="bg-gray-50 min-h-screen p-6 mx-auto max-w-4xl rounded-lg shadow-md">
+  <h1 class="text-3xl font-bold text-blue-600 mb-6 text-center">Loan History</h1>
+
+  <!-- Loading State -->
+  <div *ngIf="loading" class="flex justify-center items-center h-20">
+    <p class="text-gray-600 text-lg animate-pulse">Loading loan history...</p>
+  </div>
+
+  <!-- Empty History State -->
+  <div *ngIf="!loading && loanHistory.length === 0" class="flex justify-center items-center h-20">
+    <p class="text-gray-500 text-lg">You have no loan history.</p>
+  </div>
+
+  <!-- Loan History Table -->
+  <div *ngIf="!loading && loanHistory.length > 0" class="overflow-x-auto">
+    <table class="w-full border border-gray-200 bg-white rounded-lg shadow-md">
+      <thead>
+        <tr class="bg-blue-500 text-white">
+          <th class="py-4 px-6 text-left font-semibold">Book Title</th>
+          <th class="py-4 px-6 text-left font-semibold">Loan Date</th>
+          <th class="py-4 px-6 text-left font-semibold">Return Date</th>
+          <th class="py-4 px-6 text-left font-semibold">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let loan of loanHistory"
+          class="odd:bg-gray-100 even:bg-gray-50 hover:bg-blue-100 transition-colors"
+        >
+          <td class="py-3 px-6 text-gray-700 font-medium">{{ loan.bookTitle }}</td>
+          <td class="py-3 px-6 text-gray-600">{{ loan.loanDate }}</td>
+          <td class="py-3 px-6 text-gray-600">{{ loan.returnDate }}</td>
+          <td
+            class="py-3 px-6 text-center font-semibold"
+            [ngClass]="{
+              'text-green-500': loan.isReturned,
+              'text-red-500': !loan.isReturned && isOverdue(loan.returnDate),
+              'text-yellow-500': !loan.isReturned && !isOverdue(loan.returnDate)
+            }"
+          >
+            {{ loan.isReturned ? 'Returned' : isOverdue(loan.returnDate) ? 'Overdue' : 'On Loan' }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

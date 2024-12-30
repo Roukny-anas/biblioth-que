@@ -1,0 +1,45 @@
+
+bisme.testporjey.Services.LoanService#checkIfBookAlreadyBorrowed(Ljava/lang/Long;Ljava/lang/Long;)Z≥
+®C:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Services/LoanService.java" "(-"1*ı
+1# #(,†
+ù
+# #(,1
+%0+isme.testporjey.Repositories.LoanRepository"__id*X
+
+__unknown_file (<*:&
+$isme.testporjey.Services.LoanService"
+loanRepositoryøº
+# #(d
+%1java.util.Optional"âisme.testporjey.Repositories.LoanRepository#findByUserIdAndBookIdAndIsReturnedFalse(Ljava/lang/Long;Ljava/lang/Long;)Ljava/util/Optional;*O
+
+__unknown_file (3
+1
+%0+isme.testporjey.Repositories.LoanRepository*6
+
+__unknown_file (
+
+userIdjava.lang.Long*6
+
+__unknown_file (
+
+bookIdjava.lang.Long2IfindByUserIdAndBookIdAndIsReturnedFalse(Ljava/lang/Long;Ljava/lang/Long;)f
+d
+# #(e
+loanjava.util.Optional"__id*6
+
+__unknown_file (
+
+%1java.util.OptionalÑÅ
+$ $(
+%2boolean"java.util.Optional#isPresent()Z*8
+
+__unknown_file (
+
+loanjava.util.Optional2isPresent()"
+$ $( 
+"":$
+". "(:
+userIdjava.lang.Long:$
+"; "(F
+bookIdjava.lang.LongB(&
+$isme.testporjey.Services.LoanServiceHX

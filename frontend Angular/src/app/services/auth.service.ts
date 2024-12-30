@@ -1,19 +1,49 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { JwtHelperService } from '@auth0/angular-jwt';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  private apiUrl = 'http://votre-backend-api.com'; // Remplacez par l'URL de votre backend
+  private baseUrl = 'http://localhost:8080/api/auth'; // Update with your backend URL
+  private jwtHelper = new JwtHelperService();
 
   constructor(private http: HttpClient) {}
 
-  signin(email: string, password: string) {
-    return this.http.post(`${this.apiUrl}/signin`, { email, password });
+  // Signup method
+  signup(user: any): Observable<any> {
+    return this.http.post(`${this.baseUrl}/signup`, user);
   }
 
-  signup(email: string, password: string) {
-    return this.http.post(`${this.apiUrl}/signup`, { email, password });
+  // Signin method
+  signin(authRequest: { email: string; password: string }): Observable<any> {
+    return this.http.post(`${this.baseUrl}/signin`, authRequest);
   }
+
+  getDecodedRole(token: string | null): string | null {
+    if (!token) {
+      console.error('Token is null or undefined.');
+      return null;
+    }
+  
+    try {
+      const decodedToken = this.jwtHelper.decodeToken(token);
+  
+      // Extract roles from the decoded token
+      const rolesArray = decodedToken?.roles || [];
+      if (rolesArray.length > 0) {
+        const role = rolesArray[0]?.authority || null; // Get the first role
+        return role;
+      } else {
+        console.warn('No roles found in token.');
+        return null;
+      }
+    } catch (error) {
+      console.error('Error decoding token:', error);
+      return null;
+    }
+  }
+  
 }

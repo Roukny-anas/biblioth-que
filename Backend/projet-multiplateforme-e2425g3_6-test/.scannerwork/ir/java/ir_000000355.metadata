@@ -1,0 +1,9 @@
+isme.testporjey.ControllersTest.UserControllerTest#testGetAllUsers()V
+false
+f773d06aab1dc793b59e89618d0c57b9
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getAllUsers isme.testporjey.Services.UserService#getAllUsers()Ljava/util/List;

@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.UserController#getAllUsers()Ljava/util/List;
+false
+5db91c55dfc7ff3aa1c4a48f8f659d78
+==
+getAllUsers isme.testporjey.Services.UserService#getAllUsers()Ljava/util/List;

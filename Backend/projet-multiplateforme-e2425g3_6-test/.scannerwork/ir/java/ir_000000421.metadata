@@ -1,0 +1,12 @@
+isme.testporjey.ModelsTest.BookTest#testLoans()V
+false
+35da7e8e6a8768b4e19a88ce2bca07b8
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z

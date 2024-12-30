@@ -1,0 +1,11 @@
+isme.testporjey.ServicesTest.UserServiceTest#testGetUserById()V
+false
+71174fa103ffd475520e61fca1b275a8
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getUserById isme.testporjey.Services.UserService#getUserById(Ljava/lang/Long;)Ljava/util/Optional;

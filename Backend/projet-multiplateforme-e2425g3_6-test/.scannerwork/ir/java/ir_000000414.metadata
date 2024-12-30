@@ -1,0 +1,7 @@
+isme.testporjey.ServicesTest.LoanServiceTest#testDeleteLoan()V
+false
+f089e8da5b53b002d9826749c2e48783
+isme.testporjey.Models.LoanId#instance-init#
+==
+!unknownMethod! !unknownMethod!
+deleteLoan isme.testporjey.Services.LoanService#deleteLoan(Lisme/testporjey/Models/LoanId;)V

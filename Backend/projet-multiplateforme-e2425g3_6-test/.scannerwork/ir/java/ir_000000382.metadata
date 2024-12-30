@@ -1,0 +1,10 @@
+isme.testporjey.ServicesTest.UserServiceTest#testGetAllUsers()V
+false
+d4521a5b49de73f5a3665c5a8ccdd74b
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getAllUsers isme.testporjey.Services.UserService#getAllUsers()Ljava/util/List;
+size java.util.List#size()I

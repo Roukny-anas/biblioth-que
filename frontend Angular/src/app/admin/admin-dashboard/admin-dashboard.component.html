@@ -1,0 +1,65 @@
+<div class="flex h-screen bg-gray-100">
+  <!-- Sidebar -->
+  <nav class="w-64 bg-gradient-to-b from-blue-800 to-blue-900 text-white shadow-lg">
+    <div class="p-4 text-center text-2xl font-bold border-b border-blue-700">
+      Admin Dashboard
+    </div>
+    <ul class="mt-4 space-y-2">
+      <li>
+        <a 
+          routerLink="books" 
+          routerLinkActive="bg-blue-700 text-white" 
+          class="block py-3 px-4 rounded transition hover:bg-blue-700"
+        >
+          📚 Manage Books
+        </a>
+      </li>
+      <li>
+        <a 
+          routerLink="users" 
+          routerLinkActive="bg-blue-700 text-white" 
+          class="block py-3 px-4 rounded transition hover:bg-blue-700"
+        >
+          👥 Manage Users
+        </a>
+      </li>
+      <li>
+        <a 
+          routerLink="categories" 
+          routerLinkActive="bg-blue-700 text-white" 
+          class="block py-3 px-4 rounded transition hover:bg-blue-700"
+        >
+          🏷 Manage Categories
+        </a>
+      </li>
+      <li>
+        <a 
+          routerLink="statistics" 
+          routerLinkActive="bg-blue-700 text-white" 
+          class="block py-3 px-4 rounded transition hover:bg-blue-700"
+        >
+          📊 Statistics
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="flex-1 flex flex-col">
+    <!-- Header -->
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-gray-800">Welcome, Admin</h1>
+      <button 
+        class="bg-red-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-600 transition"
+        (click)="logout()"
+      >
+        Logout
+      </button>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <div class="flex-1 p-6 overflow-auto">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

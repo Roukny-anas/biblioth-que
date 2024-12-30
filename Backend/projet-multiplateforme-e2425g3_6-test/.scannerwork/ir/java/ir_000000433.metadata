@@ -1,0 +1,6 @@
+isme.testporjey.Controllers.BookController#searchByCategory(Ljava/lang/String;)LResponseEntity;
+false
+0db7b2f1a054831912b2e9fe7e951f66
+==
+!unknownMethod! !unknownMethod!
+searchByCategory isme.testporjey.Services.BookService#searchByCategory(Ljava/lang/String;)Ljava/util/List;

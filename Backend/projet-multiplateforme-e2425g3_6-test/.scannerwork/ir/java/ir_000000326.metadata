@@ -1,0 +1,5 @@
+isme.testporjey.Services.LoanService#getLoansByUserId(Ljava/lang/Long;)Ljava/util/List;
+false
+c6e57f4532ef6853240f3fbd61a130e3
+==
+findByUserId isme.testporjey.Repositories.LoanRepository#findByUserId(Ljava/lang/Long;)Ljava/util/List;

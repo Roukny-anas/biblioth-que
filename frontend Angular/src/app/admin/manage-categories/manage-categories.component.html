@@ -1,0 +1,68 @@
+<div class="container mx-auto p-6 bg-gray-50 min-h-screen">
+  <!-- Page Title -->
+  <h2 class="text-3xl font-bold text-blue-600 mb-8 text-center">Manage Categories</h2>
+
+  <!-- Add/Edit Category Form -->
+  <form (ngSubmit)="saveCategory()" class="bg-white shadow-md rounded-lg p-6 space-y-4 mb-8">
+    <h3 class="text-xl font-semibold text-gray-700">
+      {{ editingCategory ? 'Edit Category' : 'Add a New Category' }}
+    </h3>
+    <div class="flex items-center space-x-4">
+      <input
+        [(ngModel)]="newCategory.name"
+        name="categoryName"
+        placeholder="Category Name"
+        required
+        class="flex-1 rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+      <button
+        type="submit"
+        class="bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 transition"
+      >
+        {{ editingCategory ? 'Update Category' : 'Add Category' }}
+      </button>
+      <button
+        type="button"
+        (click)="resetCategoryForm()"
+        *ngIf="editingCategory"
+        class="bg-gray-500 text-white px-6 py-2 rounded-md font-semibold hover:bg-gray-600 focus:ring-2 focus:ring-gray-300 transition"
+      >
+        Cancel
+      </button>
+    </div>
+  </form>
+
+  <!-- List of Categories -->
+  <div class="bg-white shadow-md rounded-lg overflow-auto">
+    <table class="min-w-full border-collapse">
+      <thead>
+        <tr class="bg-blue-600 text-white text-left">
+          <th class="px-6 py-3 font-semibold">Name</th>
+          <th class="px-6 py-3 font-semibold">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let category of categories"
+          class="odd:bg-gray-100 even:bg-gray-50 hover:bg-blue-100 transition-colors"
+        >
+          <td class="px-6 py-3 text-gray-800 font-medium">{{ category.name }}</td>
+          <td class="px-6 py-3 space-x-2">
+            <button
+              (click)="editCategory(category)"
+              class="bg-yellow-500 text-white px-4 py-2 rounded-md font-semibold hover:bg-yellow-600 focus:ring-2 focus:ring-yellow-300 transition"
+            >
+              Edit
+            </button>
+            <button
+              (click)="deleteCategory(category.id!)"
+              class="bg-red-500 text-white px-4 py-2 rounded-md font-semibold hover:bg-red-600 focus:ring-2 focus:ring-red-300 transition"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

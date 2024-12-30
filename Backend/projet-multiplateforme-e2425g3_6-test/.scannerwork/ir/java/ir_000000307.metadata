@@ -1,0 +1,8 @@
+isme.testporjey.JWT.UserDetailsServiceImpl#loadUserByEmail(Ljava/lang/String;)LUserDetails;
+false
+48f1ac82f81201da4de8ae658c8454fc
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+==
+!unknownMethod! !unknownMethod!
+findByEmail isme.testporjey.Repositories.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;

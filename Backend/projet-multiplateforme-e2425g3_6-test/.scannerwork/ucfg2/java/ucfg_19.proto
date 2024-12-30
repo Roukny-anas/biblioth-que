@@ -1,0 +1,21 @@
+
+^isme.testporjey.Controllers.UserController#getUserWithMostLoans()Lisme/testporjey/Models/User;¹
+®C:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Controllers/UserController.java ($"1*æ
+1 (¦
+£
+ (1
+%0+isme.testporjey.Repositories.UserRepository"__id*^
+
+__unknown_file (B*@,
+*isme.testporjey.Controllers.UserController"
+userRepositoryüù
+ (5!
+%1isme.testporjey.Models.User"`isme.testporjey.Repositories.UserRepository#findUserWithMostLoans()Lisme/testporjey/Models/User;*O
+
+__unknown_file (3
+1
+%0+isme.testporjey.Repositories.UserRepository2findUserWithMostLoans()"/
+ (6#
+!
+%1isme.testporjey.Models.UserB.,
+*isme.testporjey.Controllers.UserControllerH

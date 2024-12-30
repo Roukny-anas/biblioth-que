@@ -1,0 +1,10 @@
+isme.testporjey.Controllers.LoanController#createLoan(Lisme/testporjey/Models/Loan;)LResponseEntity;
+false
+d8e5f700508c2bfa5c81fa918b0844ee
+isme.testporjey.Models.LoanId#<init>()V
+isme.testporjey.Models.LoanId#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isEmpty()Z
+==
+!unknownMethod! !unknownMethod!
+saveLoan isme.testporjey.Services.LoanService#saveLoan(Lisme/testporjey/Models/Loan;)Lisme/testporjey/Models/Loan;

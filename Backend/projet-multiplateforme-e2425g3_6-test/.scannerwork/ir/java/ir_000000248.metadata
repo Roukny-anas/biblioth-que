@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.UserController#getUserWithMostLoans()Lisme/testporjey/Models/User;
+false
+c7cf8626b26764ba710a1ab387a80dca
+==
+findUserWithMostLoans isme.testporjey.Repositories.UserRepository#findUserWithMostLoans()Lisme/testporjey/Models/User;

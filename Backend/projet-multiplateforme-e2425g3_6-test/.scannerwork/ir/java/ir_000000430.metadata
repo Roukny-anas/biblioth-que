@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.BookController#deleteBook(Ljava/lang/Long;)V
+false
+0d35010fd504d37052485dba6d839990
+==
+deleteBook isme.testporjey.Services.BookService#deleteBook(Ljava/lang/Long;)V

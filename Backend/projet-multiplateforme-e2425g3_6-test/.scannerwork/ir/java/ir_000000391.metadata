@@ -1,0 +1,6 @@
+isme.testporjey.Controllers.CategoryController#getAllCategories()LResponseEntity;
+false
+11b91fc651915765240105b34ce1e26d
+==
+!unknownMethod! !unknownMethod!
+getAllCategories isme.testporjey.Services.CategoryService#getAllCategories()Ljava/util/List;

@@ -1,0 +1,7 @@
+isme.testporjey.ServicesTest.CategoryServiceTest#testSaveCategory()V
+false
+0afc2315592bf290eea3105057b2638e
+isme.testporjey.Models.Category#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveCategory isme.testporjey.Services.CategoryService#saveCategory(Lisme/testporjey/Models/Category;)Lisme/testporjey/Models/Category;

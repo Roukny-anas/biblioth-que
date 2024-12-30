@@ -1,0 +1,12 @@
+isme.testporjey.ServicesTest.UserServiceTest#testSaveUser_EmailExists()V
+false
+2ffee9eae694cfe5418d7a564674be13
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.util.Optional#empty()Ljava/util/Optional;
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+findByEmail isme.testporjey.Repositories.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;
+findByUsername isme.testporjey.Repositories.UserRepository#findByUsername(Ljava/lang/String;)Ljava/util/Optional;
+getMessage java.lang.Throwable#getMessage()Ljava/lang/String;

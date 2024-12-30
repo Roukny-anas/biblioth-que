@@ -1,0 +1,27 @@
+
+Wisme.testporjey.Services.LoanService#getLoansByUserId(Ljava/lang/Long;)Ljava/util/List;≥
+®C:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Services/LoanService.javaF F(&"1*ˇ
+1G G(†
+ù
+G G(1
+%0+isme.testporjey.Repositories.LoanRepository"__id*X
+
+__unknown_file (<*:&
+$isme.testporjey.Services.LoanService"
+loanRepository®•
+G G(2
+%1java.util.List"Zisme.testporjey.Repositories.LoanRepository#findByUserId(Ljava/lang/Long;)Ljava/util/List;*O
+
+__unknown_file (3
+1
+%0+isme.testporjey.Repositories.LoanRepository*6
+
+__unknown_file (
+
+userIdjava.lang.Long2findByUserId(Ljava/lang/Long;)""
+G G(3
+
+%1java.util.List:$
+F' F(2
+userIdjava.lang.LongB(&
+$isme.testporjey.Services.LoanServiceH

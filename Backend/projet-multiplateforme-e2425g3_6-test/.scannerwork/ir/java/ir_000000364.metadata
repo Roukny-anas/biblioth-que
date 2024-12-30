@@ -1,0 +1,8 @@
+isme.testporjey.JWT.JwtService#validateToken(Ljava/lang/String;LUserDetails;)Z
+false
+069a48eaf692d7d691c71f144a59d5b6
+isme.testporjey.JWT.JwtService#isTokenExpired(Ljava/lang/String;)Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+!unknownMethod! !unknownMethod!
+extractEmail isme.testporjey.JWT.JwtService#extractEmail(Ljava/lang/String;)Ljava/lang/String;

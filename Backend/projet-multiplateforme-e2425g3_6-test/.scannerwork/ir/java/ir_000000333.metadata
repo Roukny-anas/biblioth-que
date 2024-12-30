@@ -1,0 +1,10 @@
+isme.testporjey.JWT.JwtAuthenticationFilter#doFilterInternal(LHttpServletRequest;LHttpServletResponse;LFilterChain;)V
+false
+750a24ef7dc44b79b6ae803f359736ad
+java.lang.String#startsWith(Ljava/lang/String;)Z
+java.lang.String#substring(I)Ljava/lang/String;
+==
+!unknownMethod! !unknownMethod!
+extractEmail isme.testporjey.JWT.JwtService#extractEmail(Ljava/lang/String;)Ljava/lang/String;
+loadUserByEmail isme.testporjey.JWT.UserDetailsServiceImpl#loadUserByEmail(Ljava/lang/String;)LUserDetails;
+validateToken isme.testporjey.JWT.JwtService#validateToken(Ljava/lang/String;LUserDetails;)Z

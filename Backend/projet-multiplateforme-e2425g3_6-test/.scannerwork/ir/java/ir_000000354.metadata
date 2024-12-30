@@ -1,0 +1,8 @@
+isme.testporjey.ControllersTest.UserControllerTest#testGetUserWithMostLoans()V
+false
+069660b8b7ec0934b519c6f8e051c9a9
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+findUserWithMostLoans isme.testporjey.Repositories.UserRepository#findUserWithMostLoans()Lisme/testporjey/Models/User;

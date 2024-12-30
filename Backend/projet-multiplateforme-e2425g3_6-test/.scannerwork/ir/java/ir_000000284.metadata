@@ -1,0 +1,10 @@
+isme.testporjey.ControllersTest.BookControllerTest#testSearchByTitle()V
+false
+26ff0429da57eba2291002fba88c309f
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Category#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+searchByTitle isme.testporjey.Services.BookService#searchByTitle(Ljava/lang/String;)Ljava/util/List;

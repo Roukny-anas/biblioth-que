@@ -1,0 +1,97 @@
+<div class="bg-gray-50 min-h-screen p-6 mx-auto max-w-6xl rounded-lg shadow-md">
+  <!-- Header -->
+  <div class="text-center py-6 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-md shadow-lg">
+    <h1 class="text-4xl font-extrabold tracking-wide">
+      <i class="fas fa-book mr-2"></i> Book Catalog
+    </h1>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="flex flex-wrap items-center justify-center gap-4 mt-6">
+    <input
+      type="text"
+      placeholder="Search by title or author..."
+      (input)="onSearchInput($event)"
+      class="border border-gray-300 rounded-lg shadow-sm p-3 w-full sm:w-1/2 focus:ring-2 focus:ring-blue-400 focus:outline-none"
+    />
+    <select
+      [(ngModel)]="searchType"
+      class="border border-gray-300 rounded-lg shadow-sm p-3 bg-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+    >
+      <option value="title">Title</option>
+      <option value="author">Author</option>
+    </select>
+    <button
+      (click)="resetCatalog()"
+      class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 focus:ring-2 focus:ring-red-300 flex items-center"
+    >
+      <i class="fas fa-sync-alt mr-2"></i> Reset
+    </button>
+  </div>
+
+  <!-- Category List -->
+  <div class="mt-10">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
+      <i class="fas fa-tags text-blue-500"></i> Browse by Categories
+    </h2>
+    <ul class="flex flex-wrap gap-4">
+      <li
+        *ngFor="let category of categories"
+        class="cursor-pointer bg-blue-100 text-blue-800 px-4 py-2 rounded-lg hover:bg-blue-200 transition-shadow shadow-sm"
+        (click)="onCategoryClick(category.name)"
+      >
+        {{ category.name }}
+      </li>
+    </ul>
+  </div>
+
+  <!-- Book Display -->
+  <div class="mt-10" *ngIf="bookCategories">
+    <div *ngFor="let category of bookCategories | keyvalue" class="mb-8">
+      <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+        <i class="fas fa-folder-open text-blue-500"></i> {{ category.key }}
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div
+          *ngFor="let book of category.value"
+          class="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-transform transform hover:scale-105"
+        >
+          <img
+            *ngIf="book.photo"
+            [src]="book.photo"
+            alt="{{ book.title }}"
+            class="w-full object-cover h-64 rounded-t-md"
+          />
+          <div class="p-4">
+            <h4 class="text-lg font-bold text-blue-800 truncate">
+              {{ book.title }}
+            </h4>
+            <p class="text-sm text-gray-600">
+              <strong>Author:</strong> {{ book.author }}
+            </p>
+            <p class="text-sm text-gray-600 truncate">
+              <strong>Description:</strong> {{ book.description }}
+            </p>
+            <p class="text-sm text-green-600 font-bold">
+              <strong>Available:</strong> {{ book.availableCopies }}
+            </p>
+            <button
+              *ngIf="book.id !== undefined"
+              class="w-full bg-green-500 text-white px-4 py-2 rounded-md mt-4 hover:bg-green-600 focus:ring-2 focus:ring-green-300 flex items-center justify-center"
+              (click)="borrowBook(book.id)"
+              [disabled]="book.availableCopies === 0"
+            >
+              <i class="fas fa-book-reader mr-2"></i> Borrow
+            </button>
+            <div
+              *ngIf="book.availableCopies === 0"
+              class="text-sm text-red-500 mt-2 flex items-center gap-2"
+            >
+              <i class="fas fa-times-circle"></i> Not Available
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

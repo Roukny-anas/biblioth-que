@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.UserController#getUserById(Ljava/lang/Long;)Ljava/util/Optional;
+false
+b35b71cb1c9cfce71c51064daf16bd7a
+==
+getUserById isme.testporjey.Services.UserService#getUserById(Ljava/lang/Long;)Ljava/util/Optional;

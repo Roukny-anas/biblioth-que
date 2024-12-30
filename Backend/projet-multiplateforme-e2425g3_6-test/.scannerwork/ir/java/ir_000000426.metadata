@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.BookController#getAllBooks()Ljava/util/List;
+false
+5d4c541feabca4ba421f13174cce7f6c
+==
+getAllBooks isme.testporjey.Services.BookService#getAllBooks()Ljava/util/List;

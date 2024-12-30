@@ -1,0 +1,78 @@
+
+\isme.testporjey.Controllers.BookController#getBookById(Ljava/lang/Long;)Ljava/util/Optional;¹
+®C:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Controllers/BookController.java$ $(%"startingBlock*Ä
+startingBlock$% $(<€
+~
+" "(8
+%2"
+__annotate*,
+
+__unknown_file (
+PreAuthorize*2
+
+__unknown_file (
+
+idjava.lang.Long~
+|
+# #(
+%3"
+__annotate**
+
+__unknown_file (
+
+GetMapping*2
+
+__unknown_file (
+
+idjava.lang.Long€
+~
+$& $(3
+%4"
+__annotate*,
+
+__unknown_file (
+PathVariable*2
+
+__unknown_file (
+
+idjava.lang.Long
+š
+$9 $(;
+idjava.lang.Long"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*"
+
+__unknown_file (
+
+%4*
+1*ó
+1% %(œ
+™
+% %(*
+%0$isme.testporjey.Services.BookService"__id*[
+
+__unknown_file (?*=,
+*isme.testporjey.Controllers.BookController"
+bookServiceœ™
+% %(*
+%1java.util.Optional"Visme.testporjey.Services.BookService#getBookById(Ljava/lang/Long;)Ljava/util/Optional;*H
+
+__unknown_file (,
+*
+%0$isme.testporjey.Services.BookService*2
+
+__unknown_file (
+
+idjava.lang.Long2getBookById(Ljava/lang/Long;)"&
+% %(+
+
+%1java.util.Optional: 
+$& $(;
+idjava.lang.LongB.,
+*isme.testporjey.Controllers.BookControllerH

@@ -1,0 +1,9 @@
+isme.testporjey.JWT.JwtService#isTokenExpired(Ljava/lang/String;)Z
+false
+0d0a7a156124523b14ba1708c51e75d1
+java.lang.String#getBytes()[B
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+==
+!unknownMethod! !unknownMethod!
+before java.util.Date#before(Ljava/util/Date;)Z

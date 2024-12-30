@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.LoanController#deleteLoan(Lisme/testporjey/Models/LoanId;)V
+false
+86fa0feabe5acdd631f20852087ef02d
+==
+deleteLoan isme.testporjey.Services.LoanService#deleteLoan(Lisme/testporjey/Models/LoanId;)V

@@ -1,0 +1,11 @@
+isme.testporjey.ServicesTest.LoanServiceTest#testSaveLoan()V
+false
+6e3df6b1312159036d99623f8db9c85e
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+saveLoan isme.testporjey.Services.LoanService#saveLoan(Lisme/testporjey/Models/Loan;)Lisme/testporjey/Models/Loan;

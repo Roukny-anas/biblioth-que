@@ -1,0 +1,10 @@
+isme.testporjey.Controllers.BookController#getBooksGroupedByCategory()LResponseEntity;
+false
+bd3be1c5dbc15e6d28ca0550e8c6c5c0
+java.util.stream.Collectors#groupingBy(Ljava/util/function/Function;)Ljava/util/stream/Collector;
+==
+!unknownMethod! !unknownMethod!
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+filter java.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+getAllBooks isme.testporjey.Services.BookService#getAllBooks()Ljava/util/List;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

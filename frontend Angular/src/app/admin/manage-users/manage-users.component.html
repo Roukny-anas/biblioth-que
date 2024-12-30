@@ -1,0 +1,100 @@
+<div class="container mx-auto p-6 bg-gray-50 min-h-screen">
+  <!-- Page Title -->
+  <h2 class="text-3xl font-bold text-blue-600 mb-8 text-center">Manage Users</h2>
+
+  <!-- Add New User Form -->
+  <form (ngSubmit)="addUser()" class="bg-white shadow-md rounded-lg p-6 space-y-4 mb-8">
+    <h3 class="text-xl font-semibold text-gray-700">Add a New User</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <input
+        [(ngModel)]="newUser.username"
+        name="username"
+        placeholder="Username"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+      <input
+        [(ngModel)]="newUser.email"
+        name="email"
+        placeholder="Email"
+        required
+        type="email"
+        class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+      <select
+        [(ngModel)]="newUser.role"
+        name="role"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-3 bg-white focus:ring-2 focus:ring-blue-400 focus:border-blue-400"
+      >
+        <option value="" disabled>Select Role</option>
+        <option value="ADMIN">Admin</option>
+        <option value="USER">User</option>
+      </select>
+      <input
+        [(ngModel)]="newUser.password"
+        name="password"
+        placeholder="Password"
+        required
+        type="password"
+        class="w-full rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+      />
+    </div>
+    <button
+      type="submit"
+      class="w-full bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 transition"
+    >
+      Add User
+    </button>
+  </form>
+
+  <!-- Search Section -->
+  <div class="bg-white shadow-md rounded-lg p-4 flex items-center space-x-4 mb-8">
+    <input
+      [(ngModel)]="searchQuery"
+      placeholder="Search by Username"
+      class="flex-1 rounded-md border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-blue-400 focus:border-blue-400 placeholder-gray-400"
+    />
+    <button
+      (click)="searchByUsername()"
+      class="bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 transition"
+    >
+      Search
+    </button>
+  </div>
+
+  <!-- User List Table -->
+  <div class="bg-white shadow-md rounded-lg overflow-auto">
+    <table class="min-w-full border-collapse">
+      <thead>
+        <tr class="bg-blue-600 text-white text-left">
+          <th class="px-6 py-3 font-semibold">ID</th>
+          <th class="px-6 py-3 font-semibold">Username</th>
+          <th class="px-6 py-3 font-semibold">Email</th>
+          <th class="px-6 py-3 font-semibold">Role</th>
+          <th class="px-6 py-3 font-semibold">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let user of users"
+          class="odd:bg-gray-100 even:bg-gray-50 hover:bg-blue-100 transition-colors"
+        >
+          <td class="px-6 py-3 text-gray-800 font-medium">{{ user.id }}</td>
+          <td class="px-6 py-3 text-gray-600">{{ user.username }}</td>
+          <td class="px-6 py-3 text-gray-600">{{ user.email }}</td>
+          <td class="px-6 py-3 text-gray-600">{{ user.role }}</td>
+          <td class="px-6 py-3">
+            <button
+              *ngIf="user.id !== undefined"
+              (click)="deleteUser(user.id!)"
+              class="bg-red-500 text-white px-4 py-2 rounded-md font-semibold hover:bg-red-600 focus:ring-2 focus:ring-red-300 transition"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+isme.testporjey.Controllers.CategoryController#deleteCategory(Ljava/lang/Long;)LResponseEntity;
+false
+039197a7ccbbaa0c4ceaab6038866e20
+==
+!unknownMethod! !unknownMethod!
+deleteCategory isme.testporjey.Services.CategoryService#deleteCategory(Ljava/lang/Long;)V

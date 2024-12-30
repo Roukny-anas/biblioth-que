@@ -1,0 +1,6 @@
+isme.testporjey.ServicesTest.UserServiceTest#testDeleteUser()V
+false
+e0d11a56a0aa2f311799150144041568
+==
+!unknownMethod! !unknownMethod!
+deleteUser isme.testporjey.Services.UserService#deleteUser(Ljava/lang/Long;)V

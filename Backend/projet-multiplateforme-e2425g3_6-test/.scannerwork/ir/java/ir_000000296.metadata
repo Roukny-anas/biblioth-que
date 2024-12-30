@@ -1,0 +1,5 @@
+isme.testporjey.Models.LoanId#equals(Ljava/lang/Object;)Z
+false
+359a78a83ebbd5af925f4f74d3591202
+java.lang.Object#getClass()Ljava/lang/Class;
+java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z

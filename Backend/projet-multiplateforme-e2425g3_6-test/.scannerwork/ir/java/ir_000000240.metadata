@@ -1,0 +1,8 @@
+isme.testporjey.ServicesTest.BookServiceTest#testSaveBook()V
+false
+4d3a1a5c1c829bc418e17cc402f35d3e
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveBook isme.testporjey.Services.BookService#saveBook(Lisme/testporjey/Models/Book;)Lisme/testporjey/Models/Book;

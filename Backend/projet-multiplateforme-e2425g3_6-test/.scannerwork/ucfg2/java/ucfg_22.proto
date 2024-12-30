@@ -1,0 +1,77 @@
+
+oisme.testporjey.Controllers.UserController#saveUser(Lisme/testporjey/Models/User;)Lisme/testporjey/Models/User;π
+ÆC:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Controllers/UserController.java, ,("startingBlock*Ñ
+startingBlock, ,(0ê
+ç
+* *(%
+%2"
+__annotate*,
+
+__unknown_file (
+PreAuthorize*A
+
+__unknown_file (%
+#
+userisme.testporjey.Models.Userè
+å
++ +(
+%3"
+__annotate*+
+
+__unknown_file (
+PostMapping*A
+
+__unknown_file (%
+#
+userisme.testporjey.Models.Userè
+å
+, ,(%
+%4"
+__annotate*+
+
+__unknown_file (
+RequestBody*A
+
+__unknown_file (%
+#
+userisme.testporjey.Models.User¨
+©
+,+ ,(/#
+userisme.testporjey.Models.User"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*"
+
+__unknown_file (
+
+%4*
+1*±
+1- -(ú
+ô
+- -(*
+%0$isme.testporjey.Services.UserService"__id*[
+
+__unknown_file (?*=,
+*isme.testporjey.Controllers.UserController"
+userService—Œ
+- -()!
+%1isme.testporjey.Models.User"iisme.testporjey.Services.UserService#saveUser(Lisme/testporjey/Models/User;)Lisme/testporjey/Models/User;*H
+
+__unknown_file (,
+*
+%0$isme.testporjey.Services.UserService*A
+
+__unknown_file (%
+#
+userisme.testporjey.Models.User2'saveUser(Lisme/testporjey/Models/User;)"/
+- -(*#
+!
+%1isme.testporjey.Models.User:/
+, ,(/#
+userisme.testporjey.Models.UserB.,
+*isme.testporjey.Controllers.UserControllerH

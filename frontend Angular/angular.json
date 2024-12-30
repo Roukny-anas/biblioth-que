@@ -5,11 +5,7 @@
   "projects": {
     "projet-angular": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +20,6 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -32,13 +27,18 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css",
+              "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "node_modules/@angular/material/prebuilt-themes/purple-green.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
-            "outputMode": "server",
+            "prerender": true,
             "ssr": {
-              "entry": "src/server.ts"
+              "entry": "server.ts"
             }
           },
           "configurations": {
@@ -51,8 +51,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumWarning": "2kB",
+                  "maximumError": "4kB"
                 }
               ],
               "outputHashing": "all"
@@ -88,7 +88,6 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -96,7 +95,7 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -105,6 +104,6 @@
     }
   },
   "cli": {
-    "analytics": "3bfcb340-c136-4575-a73a-054c911616c4"
+    "analytics": "3bbb5f6e-b688-462b-bf2f-1c9ff749d15d"
   }
 }

@@ -1,0 +1,78 @@
+
+kisme.testporjey.Controllers.LoanController#getLoanById(Lisme/testporjey/Models/LoanId;)Ljava/util/Optional;π
+ÆC:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Controllers/LoanController.java' '(%"startingBlock*Ñ
+startingBlock'% '(>ê
+ç
+% %(%
+%2"
+__annotate*,
+
+__unknown_file (
+PreAuthorize*A
+
+__unknown_file (%
+#
+idisme.testporjey.Models.LoanIdé
+ã
+& &(
+%3"
+__annotate**
+
+__unknown_file (
+
+GetMapping*A
+
+__unknown_file (%
+#
+idisme.testporjey.Models.LoanIdê
+ç
+'& '(3
+%4"
+__annotate*,
+
+__unknown_file (
+PathVariable*A
+
+__unknown_file (%
+#
+idisme.testporjey.Models.LoanId¨
+©
+'; '(=#
+idisme.testporjey.Models.LoanId"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*"
+
+__unknown_file (
+
+%4*
+1*†
+1( ((ú
+ô
+( ((*
+%0$isme.testporjey.Services.LoanService"__id*[
+
+__unknown_file (?*=,
+*isme.testporjey.Controllers.LoanController"
+loanService…∆
+( ((*
+%1java.util.Optional"eisme.testporjey.Services.LoanService#getLoanById(Lisme/testporjey/Models/LoanId;)Ljava/util/Optional;*H
+
+__unknown_file (,
+*
+%0$isme.testporjey.Services.LoanService*A
+
+__unknown_file (%
+#
+idisme.testporjey.Models.LoanId2,getLoanById(Lisme/testporjey/Models/LoanId;)"&
+( ((+
+
+%1java.util.Optional:/
+'& '(=#
+idisme.testporjey.Models.LoanIdB.,
+*isme.testporjey.Controllers.LoanControllerH

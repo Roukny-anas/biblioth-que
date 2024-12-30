@@ -1,0 +1,10 @@
+isme.testporjey.ServicesTest.LoanServiceTest#testCheckIfBookAlreadyBorrowed()V
+false
+aac2f6188d192e5c4948e2c674732a28
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+checkIfBookAlreadyBorrowed isme.testporjey.Services.LoanService#checkIfBookAlreadyBorrowed(Ljava/lang/Long;Ljava/lang/Long;)Z
+findByUserIdAndBookIdAndIsReturnedFalse isme.testporjey.Repositories.LoanRepository#findByUserIdAndBookIdAndIsReturnedFalse(Ljava/lang/Long;Ljava/lang/Long;)Ljava/util/Optional;

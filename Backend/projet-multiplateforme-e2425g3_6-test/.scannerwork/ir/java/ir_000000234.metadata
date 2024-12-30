@@ -1,0 +1,10 @@
+isme.testporjey.ServicesTest.CategoryServiceTest#testSearchByName()V
+false
+fcff6ba18eb92949524db1e80b73deaa
+isme.testporjey.Models.Category#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+findByName isme.testporjey.Repositories.CategoryRepository#findByName(Ljava/lang/String;)Ljava/util/Optional;
+getCategoryByName isme.testporjey.Services.CategoryService#getCategoryByName(Ljava/lang/String;)Ljava/util/Optional;

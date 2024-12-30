@@ -1,0 +1,8 @@
+isme.testporjey.ServicesTest.LoanServiceTest#testGetAllLoans()V
+false
+e8bd5b84ebe9a0eca8d96caba11a9d09
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getAllLoans isme.testporjey.Services.LoanService#getAllLoans()Ljava/util/List;

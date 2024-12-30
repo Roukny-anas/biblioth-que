@@ -1,0 +1,11 @@
+isme.testporjey.ServicesTest.BookServiceTest#testSearchByTitle()V
+false
+b1dcf03d83af47b7a95dd1a1efc4875a
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+findByTitleContainingIgnoreCase isme.testporjey.Repositories.BookRepository#findByTitleContainingIgnoreCase(Ljava/lang/String;)Ljava/util/List;
+searchByTitle isme.testporjey.Services.BookService#searchByTitle(Ljava/lang/String;)Ljava/util/List;
+size java.util.List#size()I

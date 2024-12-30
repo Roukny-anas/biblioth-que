@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.LoanController#getAllLoans()Ljava/util/List;
+false
+48b42678801f973f052bfdfa70e58a14
+==
+getAllLoans isme.testporjey.Services.LoanService#getAllLoans()Ljava/util/List;

@@ -1,0 +1,14 @@
+isme.testporjey.ModelsTest.LoanTest#testEqualsAndHashCode()V
+false
+2a3a280d67307242d6ed7aa76ec484e0
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+isme.testporjey.Models.LoanId#instance-init#
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;
+==
+!unknownMethod! !unknownMethod!
+hashCode java.lang.Object#hashCode()I

@@ -1,0 +1,338 @@
+
+8isme.testporjey.Models.Loan#toString()Ljava/lang/String;™
+üC:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Models/Loan.java& &("1*Æ
+1' '(|
+z
+' '(#
+%0isme.testporjey.Models.LoanId"__id*C
+
+__unknown_file ('*%
+isme.testporjey.Models.Loan"
+id
+}
+' '(
+%1"__calculate*
+' '(
++*
+' '(
+
+Loan(id=*1
+' '(%
+#
+%0isme.testporjey.Models.LoanIdg
+e
+' ((!
+%2"__calculate*
+' '( 
++*
+' '(
+
+%1*
+( ((!
+, user=User{id=|
+z
+($ (((!
+%3isme.testporjey.Models.User"__id*E
+
+__unknown_file ()*'
+isme.testporjey.Models.Loan"
+userZ
+X
+' ((0
+%4"__calculate*
+(" ((#
++*
+' ((!
+
+%2*
+($ ((0
+""Y
+W
+' ((6
+%5"__calculate*
+(1 ((2
++*
+' ((0
+
+%4*
+(3 ((6
+}g
+e
+' )(!
+%6"__calculate*
+(7 ((8
++*
+' ((6
+
+%5*
+) )(!
+, book=Book{id=|
+z
+)$ )((!
+%7isme.testporjey.Models.Book"__id*E
+
+__unknown_file ()*'
+isme.testporjey.Models.Loan"
+bookZ
+X
+' )(0
+%8"__calculate*
+)" )(#
++*
+' )(!
+
+%6*
+)$ )(0
+""`
+^
+' )(=
+%9"__calculate*
+)1 )(2
++*
+' )(0
+
+%8*
+)3 )(=
+
+, title=}
+{
+)@ )(D"
+%10isme.testporjey.Models.Book"__id*E
+
+__unknown_file ()*'
+isme.testporjey.Models.Loan"
+book[
+Y
+' )(O
+%11"__calculate*
+)> )(?
++*
+' )(=
+
+%9*
+)@ )(O
+""b
+`
+' )(\
+%12"__calculate*
+)P )(Q
++*
+' )(O
+
+%11*
+)R )(\
+
+, photo=}
+{
+)_ )(c"
+%13isme.testporjey.Models.Book"__id*E
+
+__unknown_file ()*'
+isme.testporjey.Models.Loan"
+book\
+Z
+' )(n
+%14"__calculate*
+)] )(^
++*
+' )(\
+
+%12*
+)_ )(n
+""c
+a
+' )(|
+%15"__calculate*
+)o )(p
++*
+' )(n
+
+%14*
+)q )(|
+	, author=~
+|
+	) )(É"
+%16isme.testporjey.Models.Book"__id*E
+
+__unknown_file ()*'
+isme.testporjey.Models.Loan"
+book^
+\
+	' )(è
+%17"__calculate*
+)} )(~
++*
+' )(|
+
+%15*
+	) )(è
+""n
+l
+	' )(¢
+%18"__calculate*
+
+)ê )(ë
++*
+	' )(è
+
+%17* 
+
+)í )(¢
+, description=
+}
+
+)• )(©"
+%19isme.testporjey.Models.Book"__id*E
+
+__unknown_file ()*'
+isme.testporjey.Models.Loan"
+bookb
+`
+	' )(∫
+%20"__calculate*
+
+)£ )(§
++*
+	' )(¢
+
+%18*
+
+)• )(∫
+""r
+p
+	' )(—
+%21"__calculate*
+
+)ª )(º
++*
+	' )(∫
+
+%20*$
+
+)Ω )(—
+, availableCopies=
+}
+
+)‘ )(ÿ"
+%22isme.testporjey.Models.Book"__id*E
+
+__unknown_file ()*'
+isme.testporjey.Models.Loan"
+bookb
+`
+	' )(Ì
+%23"__calculate*
+
+)“ )(”
++*
+	' )(—
+
+%21*
+
+)‘ )(Ì
+""a
+_
+	' )(Û
+%24"__calculate*
+
+)Ó )(Ô
++*
+	' )(Ì
+
+%23*
+
+) )(Û
+}h
+f
+' *(
+%25"__calculate*
+
+)Ù )(ı
++*
+	' )(Û
+
+%24*
+* *(
+, loanDate=y
+w
+*  *((
+%26java.time.LocalDate"__id*I
+
+__unknown_file (-*+
+isme.testporjey.Models.Loan"
+
+loanDater
+p
+' *((
+%27"__calculate*
+* *(
++*
+' *(
+
+%25*(
+*  *((
+
+%26java.time.LocalDateg
+e
+' +(
+%28"__calculate*
+*) *(*
++*
+' *((
+
+%27*
++ +(
+, returnDate={
+y
++" +(,
+%29java.time.LocalDate"__id*K
+
+__unknown_file (/*-
+isme.testporjey.Models.Loan"
+
+returnDater
+p
+' +(,
+%30"__calculate*
++  +(!
++*
+' +(
+
+%28*(
++" +(,
+
+%29java.time.LocalDateg
+e
+' ,(
+%31"__calculate*
++- +(.
++*
+' +(,
+
+%30*
+, ,(
+, isReturned=\
+Z
+' ,(,
+%32"__calculate*
+,  ,(!
++*
+' ,(
+
+%31*
+," ,(,
+""[
+Y
+' ,(2
+%33"__calculate*
+,- ,(.
++*
+' ,(,
+
+%32*
+,/ ,(2
+)"
+' ,(3
+
+%33B
+isme.testporjey.Models.LoanH

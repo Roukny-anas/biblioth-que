@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.LoanController#getLoansByUserId(Ljava/lang/Long;)Ljava/util/List;
+false
+94c29f62e5fc61bdb4800852f1d25fd2
+==
+getLoansByUserId isme.testporjey.Services.LoanService#getLoansByUserId(Ljava/lang/Long;)Ljava/util/List;

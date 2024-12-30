@@ -1,0 +1,9 @@
+isme.testporjey.ControllersTest.BookControllerTest#testGetMostLoanedBook()V
+false
+da55920748abad3bf64dbc8c9d6793e7
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Category#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getMostLoanedBook isme.testporjey.Services.BookService#getMostLoanedBook()Lisme/testporjey/Models/Book;

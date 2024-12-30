@@ -1,0 +1,16 @@
+isme.testporjey.ModelsTest.LoanTest#testLoans()V
+false
+5c16c448e0bb71fd33d59471a9280e55
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+isme.testporjey.Models.LoanId#instance-init#
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z

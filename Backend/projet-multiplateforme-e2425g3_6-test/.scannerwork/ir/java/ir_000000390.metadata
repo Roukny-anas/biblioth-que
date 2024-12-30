@@ -1,0 +1,6 @@
+isme.testporjey.Controllers.CategoryController#createCategory(Lisme/testporjey/Models/Category;)LResponseEntity;
+false
+d4f5dd2f96d50010fff171a89d441242
+==
+!unknownMethod! !unknownMethod!
+saveCategory isme.testporjey.Services.CategoryService#saveCategory(Lisme/testporjey/Models/Category;)Lisme/testporjey/Models/Category;

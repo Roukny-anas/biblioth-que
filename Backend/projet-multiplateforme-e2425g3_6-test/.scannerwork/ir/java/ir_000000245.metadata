@@ -1,0 +1,9 @@
+isme.testporjey.ServicesTest.BookServiceTest#testGetMostLoanedBook()V
+false
+54d198dc0bfe70814e96e939bbdcf438
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+==
+!unknownMethod! !unknownMethod!
+findMostLoanedBook isme.testporjey.Repositories.BookRepository#findMostLoanedBook()Lisme/testporjey/Models/Book;
+getMostLoanedBook isme.testporjey.Services.BookService#getMostLoanedBook()Lisme/testporjey/Models/Book;

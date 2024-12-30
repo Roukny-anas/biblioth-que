@@ -1,0 +1,12 @@
+isme.testporjey.ServicesTest.LoanServiceTest#testGetLoanById()V
+false
+fafe5dffa38abe046d78b98f30a7e070
+isme.testporjey.Models.Loan#<init>()V
+isme.testporjey.Models.Loan#instance-init#
+isme.testporjey.Models.LoanId#instance-init#
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+==
+!unknownMethod! !unknownMethod!
+getLoanById isme.testporjey.Services.LoanService#getLoanById(Lisme/testporjey/Models/LoanId;)Ljava/util/Optional;

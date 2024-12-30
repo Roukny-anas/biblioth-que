@@ -1,0 +1,10 @@
+isme.testporjey.ServicesTest.BookServiceTest#testGetBookById()V
+false
+eeb5567e8aa949cc4f1dab286fa0dd28
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;
+==
+!unknownMethod! !unknownMethod!
+getBookById isme.testporjey.Services.BookService#getBookById(Ljava/lang/Long;)Ljava/util/Optional;

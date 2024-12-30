@@ -1,0 +1,9 @@
+isme.testporjey.ServicesTest.CategoryServiceTest#testGetCategoryById()V
+false
+ea8d0f267af45f9ae4fb1f851cce2448
+isme.testporjey.Models.Category#instance-init#
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;
+==
+!unknownMethod! !unknownMethod!
+getCategoryById isme.testporjey.Services.CategoryService#getCategoryById(Ljava/lang/Long;)Ljava/util/Optional;

@@ -1,0 +1,8 @@
+isme.testporjey.ModelsTest.UserTest#testToString()V
+false
+a70289dba369d25f6a22ba44bbaa4542
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+toString java.lang.Object#toString()Ljava/lang/String;

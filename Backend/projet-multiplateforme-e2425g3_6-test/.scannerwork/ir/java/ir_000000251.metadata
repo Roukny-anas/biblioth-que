@@ -1,0 +1,5 @@
+isme.testporjey.Controllers.UserController#saveUser(Lisme/testporjey/Models/User;)Lisme/testporjey/Models/User;
+false
+87913778169cc129eed4d20dd718edc8
+==
+saveUser isme.testporjey.Services.UserService#saveUser(Lisme/testporjey/Models/User;)Lisme/testporjey/Models/User;

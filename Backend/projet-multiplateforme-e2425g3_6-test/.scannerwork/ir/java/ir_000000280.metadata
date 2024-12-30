@@ -1,0 +1,10 @@
+isme.testporjey.ControllersTest.BookControllerTest#testGetAllBooks()V
+false
+4b701badb9672b1bc2e6c350438a205e
+isme.testporjey.Models.Book#<init>()V
+isme.testporjey.Models.Book#instance-init#
+isme.testporjey.Models.Category#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+getAllBooks isme.testporjey.Services.BookService#getAllBooks()Ljava/util/List;

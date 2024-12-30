@@ -1,0 +1,7 @@
+isme.testporjey.ControllersTest.CategoryControllerTest#testCreateCategory()V
+false
+cbbcc1918455ef19d9ff498db6c62136
+isme.testporjey.Models.Category#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveCategory isme.testporjey.Services.CategoryService#saveCategory(Lisme/testporjey/Models/Category;)Lisme/testporjey/Models/Category;

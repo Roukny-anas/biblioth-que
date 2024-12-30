@@ -1,0 +1,21 @@
+
+Uisme.testporjey.Services.BookService#getMostLoanedBook()Lisme/testporjey/Models/Book;≥
+®C:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Services/BookService.java0 0(!"1*⁄
+11 1(†
+ù
+1 1(1
+%0+isme.testporjey.Repositories.BookRepository"__id*X
+
+__unknown_file (<*:&
+$isme.testporjey.Services.BookService"
+bookRepositoryˆÛ
+1 1(2!
+%1isme.testporjey.Models.Book"]isme.testporjey.Repositories.BookRepository#findMostLoanedBook()Lisme/testporjey/Models/Book;*O
+
+__unknown_file (3
+1
+%0+isme.testporjey.Repositories.BookRepository2findMostLoanedBook()"/
+1 1(3#
+!
+%1isme.testporjey.Models.BookB(&
+$isme.testporjey.Services.BookServiceH

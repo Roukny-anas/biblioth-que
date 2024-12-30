@@ -1,0 +1,35 @@
+
+)isme.testporjey.Models.LoanId#hashCode()I¬
+¡C:/Users/PC/Downloads/libTest/projet-multiplateforme-e2425g3_6-TestYoussef/projet-multiplateforme-e2425g3_6-test/src/main/java/isme/testporjey/Models/LoanId.java ("1*ï
+1 (s
+q
+ ("
+%0java.lang.Long"__id*I
+
+__unknown_file (-*+
+isme.testporjey.Models.LoanId"
+userIds
+q
+$ (*
+%1java.lang.Long"__id*I
+
+__unknown_file (-*+
+isme.testporjey.Models.LoanId"
+bookIdá
+Þ
+ (+	
+%2int",java.util.Objects#hash([Ljava/lang/Object;)I*1
+
+__unknown_file ("
+java.util.Objects*2
+
+__unknown_file (
+
+%0java.lang.Long*2
+
+__unknown_file (
+
+%1java.lang.Long"
+ (,
+""B!
+isme.testporjey.Models.LoanIdHX

@@ -1,0 +1,6 @@
+isme.testporjey.ServicesTest.BookServiceTest#testDeleteBook()V
+false
+379a5e946ec197c606bf57c45fa5d0e4
+==
+!unknownMethod! !unknownMethod!
+deleteBook isme.testporjey.Services.BookService#deleteBook(Ljava/lang/Long;)V

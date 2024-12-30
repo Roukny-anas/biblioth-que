@@ -1,0 +1,8 @@
+isme.testporjey.ControllersTest.UserControllerTest#testSaveUser()V
+false
+97a6a22b1d5692b492826b7c9b7f121e
+isme.testporjey.Models.User#<init>()V
+isme.testporjey.Models.User#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveUser isme.testporjey.Services.UserService#saveUser(Lisme/testporjey/Models/User;)Lisme/testporjey/Models/User;
